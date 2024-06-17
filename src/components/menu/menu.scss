@@ -1,0 +1,35 @@
+@import "./../../styles/global.scss";
+
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  .item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;    
+
+    .title {
+      font-size: small;
+      font-weight: 200;
+      color: $soft-color;
+      text-transform: uppercase;
+    }
+
+    .ListItem {
+        gap: 10px;
+        display: flex;
+        padding: 10px;
+        align-items: center;
+        border-radius: 5px;
+        &:hover{
+            background-color: $soft-bg;
+        }
+
+    }
+
+  }
+}
